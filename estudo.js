@@ -14,8 +14,18 @@ function escreva(){
     document.write(tabuada + " x 1 = " + (tabuada*9) + "<br>");
     document.write(tabuada + " x 1 = " + (tabuada*10) + "<br>");
 }
-}
-}
-
+}   let lista = ["jesus","spessato","jorge","duarte","waldete","raquel"]
+    
+    function mostra(){
+        document.write(lista.length);
+        for(let i = 0; i < lista.lengt; i++){
+        document.write(lista[i] + "<br>");
+        }
+        
+    }
+function tabuada(){
+    for(let i = 1; i <= 10; i++){
+        
+    }
 
 
