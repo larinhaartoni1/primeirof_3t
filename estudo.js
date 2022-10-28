@@ -38,6 +38,7 @@ function total(){
         document.write("Mês " + i + " - valor: " + r + "<br>");
         v = r;
     }
+    document.getElementById("total").innerHTML = moeda(r);
     document.write("Resultado: " + r);
 }
 
